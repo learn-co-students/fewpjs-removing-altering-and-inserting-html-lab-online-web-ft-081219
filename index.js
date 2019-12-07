@@ -3,8 +3,8 @@
 //document.querySelector("main#main").remove();
 main.remove();
 
-let newHeader = document.createElement('h1');
-document.body.appendChild(newHeader);
+let newHeader = document.createElement('h1'); //create element
+document.body.appendChild(newHeader); //append to body
 
 newHeader.id = 'victory';
 
